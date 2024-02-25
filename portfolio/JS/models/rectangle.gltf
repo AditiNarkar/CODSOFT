@@ -1,0 +1,530 @@
+{
+  "asset": {
+    "version": "2.0",
+    "generator": "THREE.GLTFExporter"
+  },
+  "scenes": [
+    {
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "scene": 0,
+  "nodes": [
+    {
+      "children": [
+        9
+      ],
+      "matrix": [
+        0.01,
+        0,
+        0,
+        0,
+        0,
+        0.01,
+        0,
+        0,
+        0,
+        0,
+        0.01,
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "matrix": [
+        53.3318797679196,
+        42.56100799045705,
+        -14.385004478071064,
+        0,
+        -35.81615581985413,
+        53.75792097253783,
+        26.26682450499132,
+        0,
+        27.121407361820342,
+        -12.70053881236282,
+        62.97446094384269,
+        0,
+        -24.69502722696504,
+        300.47280263798206,
+        154.72347268606697,
+        1
+      ],
+      "name": "directionalLight1"
+    },
+    {
+      "matrix": [
+        0.45852444551651605,
+        -0.7705132427756717,
+        0.4427919100108879,
+        0,
+        0.5542608422159642,
+        0.6374239897488319,
+        0.5352434736442204,
+        0,
+        -0.6946583704597689,
+        0,
+        0.719339800337906,
+        0,
+        -334.71766392277243,
+        552.5751123528169,
+        -327.30382439255624,
+        1
+      ],
+      "name": "camera1"
+    },
+    {
+      "matrix": [
+        62.990571219154226,
+        -6.916784201204233,
+        -29.430646166855254,
+        0,
+        -17.16888019185483,
+        47.63819064271409,
+        -47.94256459372889,
+        0,
+        24.81223853130143,
+        50.4539969583196,
+        41.24808073805838,
+        0,
+        -78.08901248122207,
+        170.56915355533326,
+        -65.35765664678286,
+        1
+      ],
+      "name": "directionalLight2"
+    },
+    {
+      "matrix": [
+        -0.3110785356812549,
+        -0.00518330579104689,
+        0.15486781734808971,
+        0,
+        0.15178835176793237,
+        0.059663364331745204,
+        0.30688978818929513,
+        0,
+        -0.03116414248233377,
+        0.3423363538515483,
+        -0.051140785344447576,
+        0,
+        0.0020445102172620935,
+        12.569727685005624,
+        4.962998880383401,
+        1
+      ],
+      "name": "Rectangle",
+      "mesh": 0
+    },
+    {
+      "matrix": [
+        2.877405807577931,
+        0,
+        0,
+        0,
+        0,
+        2.877405807577931,
+        0,
+        0,
+        0,
+        0,
+        2.877405807577931,
+        0,
+        0,
+        21.300605019468016,
+        0,
+        1
+      ],
+      "name": "seashell_fbx",
+      "children": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "matrix": [
+        0.5883484054145521,
+        0.39223227027636803,
+        -0.7071067811865475,
+        0,
+        -0.554700196225229,
+        0.8320502943378437,
+        0,
+        0,
+        0.588348405414552,
+        0.392232270276368,
+        0.7071067811865476,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "name": "Directional Light",
+      "extensions": {
+        "KHR_lights_punctual": {
+          "light": 0
+        }
+      }
+    },
+    {
+      "matrix": [
+        -0.7811212142417068,
+        3.6179366606770014e-8,
+        0.6243794108245083,
+        0,
+        0.08260895666826834,
+        0.9912089653136764,
+        0.1033467336686127,
+        0,
+        -0.6188904660275044,
+        0.13230565778450176,
+        -0.7742543535418243,
+        0,
+        -776.7093485257225,
+        627.1177961512169,
+        -1293.1461261213183,
+        1
+      ],
+      "name": "Personal Camera",
+      "camera": 0
+    },
+    {
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        1
+      ],
+      "name": "Default Ambient Light"
+    },
+    {
+      "name": "Scene 1",
+      "children": [
+        5,
+        6,
+        7,
+        8
+      ]
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteOffset": 0,
+      "byteLength": 48,
+      "target": 34962,
+      "byteStride": 12
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 48,
+      "byteLength": 48,
+      "target": 34962,
+      "byteStride": 12
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 96,
+      "byteLength": 32,
+      "target": 34962,
+      "byteStride": 8
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 128,
+      "byteLength": 24,
+      "target": 34963
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 152,
+      "uri": "data:application/octet-stream;base64,ZHqXwqIpFkIAAAAAZHqXQqIpFsIAAAAAZHqXQqIpFkIAAAAAZHqXwqIpFsIAAAAAAAAAAAAAAAAAAIA/AAAAAAAAAAAAAIA/AAAAAAAAAAAAAIA/AAAAAAAAAAAAAIA/AAAAAAAAgD8AAIA/AAAAAAAAgD8AAIA/AAAAAAAAAAAAAAAAAQAAAAIAAAABAAAAAAAAAAMAAAA="
+    }
+  ],
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 4,
+      "max": [
+        75.73904418945312,
+        37.54065704345703,
+        0
+      ],
+      "min": [
+        -75.73904418945312,
+        -37.54065704345703,
+        0
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 4,
+      "max": [
+        0,
+        0,
+        1
+      ],
+      "min": [
+        0,
+        0,
+        1
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 4,
+      "max": [
+        1,
+        1
+      ],
+      "min": [
+        0,
+        0
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5125,
+      "count": 6,
+      "max": [
+        3
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    }
+  ],
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "mode": 4,
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TEXCOORD_0": 2
+          },
+          "extras": {
+            "shape": {
+              "points": [
+                -75.73904205251338,
+                37.540658125109275,
+                -75.73904205251338,
+                37.540658125109275,
+                -75.73904205251338,
+                37.540658125109275,
+                0,
+                75.73904205251338,
+                37.540658125109275,
+                75.73904205251338,
+                37.540658125109275,
+                75.73904205251338,
+                37.540658125109275,
+                0,
+                75.73904205251338,
+                -37.540658125109275,
+                75.73904205251338,
+                -37.540658125109275,
+                75.73904205251338,
+                -37.540658125109275,
+                0,
+                -75.73904205251338,
+                -37.540658125109275,
+                -75.73904205251338,
+                -37.540658125109275,
+                -75.73904205251338,
+                -37.540658125109275,
+                0
+              ],
+              "shapeHoles": [],
+              "isClosed": true,
+              "roundness": 0
+            },
+            "parameters": {
+              "width": 151.47808410502677,
+              "depth": 0,
+              "cornerRadius": [
+                0,
+                0,
+                0,
+                0
+              ],
+              "cornerType": 1,
+              "extrudeBevelSize": 0,
+              "extrudeBevelSegments": 1,
+              "height": 75.08131625021855,
+              "type": "RectangleGeometry",
+              "subdivisions": 12,
+              "shape": {
+                "isClosed": true,
+                "points": [
+                  {
+                    "id": "6bbf133b-2774-454b-897a-d755f04d92e6",
+                    "fi": 0,
+                    "data": {
+                      "position": [
+                        -69.33039146362951,
+                        41.05738150190396
+                      ],
+                      "controlNext": {
+                        "position": [
+                          -69.33039146362951,
+                          41.05738150190396
+                        ]
+                      },
+                      "controlPrevious": {
+                        "position": [
+                          -69.33039146362951,
+                          41.05738150190396
+                        ]
+                      },
+                      "areControlsDirectionsMirrored": true,
+                      "roundness": 0
+                    }
+                  },
+                  {
+                    "id": "ab61cd42-888f-4e4c-8386-d86f7f8b7de3",
+                    "fi": 1,
+                    "data": {
+                      "position": [
+                        69.33039146362951,
+                        41.05738150190396
+                      ],
+                      "controlNext": {
+                        "position": [
+                          69.33039146362951,
+                          41.05738150190396
+                        ]
+                      },
+                      "controlPrevious": {
+                        "position": [
+                          69.33039146362951,
+                          41.05738150190396
+                        ]
+                      },
+                      "areControlsDirectionsMirrored": true,
+                      "roundness": 0
+                    }
+                  },
+                  {
+                    "id": "ec53378c-2969-4d1b-b225-626ee0643a05",
+                    "fi": 2,
+                    "data": {
+                      "position": [
+                        69.33039146362951,
+                        -41.05738150190396
+                      ],
+                      "controlNext": {
+                        "position": [
+                          69.33039146362951,
+                          -41.05738150190396
+                        ]
+                      },
+                      "controlPrevious": {
+                        "position": [
+                          69.33039146362951,
+                          -41.05738150190396
+                        ]
+                      },
+                      "areControlsDirectionsMirrored": true,
+                      "roundness": 0
+                    }
+                  },
+                  {
+                    "id": "e90f01cb-03ab-4fa6-9319-7ce4d4c8d728",
+                    "fi": 3,
+                    "data": {
+                      "position": [
+                        -69.33039146362951,
+                        -41.05738150190396
+                      ],
+                      "controlNext": {
+                        "position": [
+                          -69.33039146362951,
+                          -41.05738150190396
+                        ]
+                      },
+                      "controlPrevious": {
+                        "position": [
+                          -69.33039146362951,
+                          -41.05738150190396
+                        ]
+                      },
+                      "areControlsDirectionsMirrored": true,
+                      "roundness": 0
+                    }
+                  }
+                ],
+                "roundness": 0,
+                "shapeHoles": []
+              }
+            },
+            "ui": {
+              "enabledIndieCorners": false
+            },
+            "type": "RectangleGeometry"
+          },
+          "indices": 3
+        }
+      ]
+    }
+  ],
+  "extensions": {
+    "KHR_lights_punctual": {
+      "lights": [
+        {
+          "name": "Directional Light",
+          "color": [
+            1,
+            1,
+            1
+          ],
+          "intensity": 0.7,
+          "type": "directional"
+        }
+      ]
+    }
+  },
+  "cameras": [
+    {
+      "type": "perspective",
+      "perspective": {
+        "aspectRatio": 2.2503293807641636,
+        "yfov": 0.7853981633974483,
+        "zfar": 100000,
+        "znear": 70
+      },
+      "name": "Camera"
+    }
+  ],
+  "extensionsUsed": [
+    "KHR_lights_punctual"
+  ]
+}

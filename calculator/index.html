@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gochi+Hand&display=swap" rel="stylesheet">
+
+    <title>Calculator</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <script type="module" src="scripts/load_particles.js"></script>
+</head>
+<body>
+    <canvas class="webgl"></canvas>  
+    
+    <div class="container">
+        <div id="calculator">
+            <input type="text" id="display" readonly>
+            <button class="cancel" onclick="clearDisplay()">C</button>
+            <button onclick="displayOnCalc('/')" class="operator">/</button>
+            
+            <button onclick="displayOnCalc('7')">7</button>
+            <button onclick="displayOnCalc('8')">8</button>
+            <button onclick="displayOnCalc('9')">9</button>
+            <button onclick="displayOnCalc('*')" class="operator">x</button>
+
+            
+            <button onclick="displayOnCalc('4')">4</button>
+            <button onclick="displayOnCalc('5')">5</button>
+            <button onclick="displayOnCalc('6')">6</button>
+            <button onclick="displayOnCalc('-')" class="operator">-</button>
+
+            
+            <button onclick="displayOnCalc('1')">1</button>
+            <button onclick="displayOnCalc('2')">2</button>
+            <button onclick="displayOnCalc('3')">3</button>
+            <button onclick="displayOnCalc('+')" class="operator">+</button>
+            
+            <button class="zero" onclick="displayOnCalc('0')">0</button>
+            <button onclick="displayOnCalc('.')">.</button>
+            <button onclick="calculate()">=</button>
+          </div>
+        
+          <script>
+            function clearDisplay() {
+              document.getElementById('display').value = '';
+            }
+        
+            function displayOnCalc(value) {
+              document.getElementById('display').value += value;
+            }
+        
+            function calculate() {
+              try {
+                document.getElementById('display').value = eval(document.getElementById('display').value);
+              } catch (error) {
+                document.getElementById('display').value = 'Error';
+              }
+            }
+          </script>
+    </div>
+</body>
+</html>

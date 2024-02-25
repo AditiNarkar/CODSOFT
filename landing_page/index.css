@@ -1,0 +1,484 @@
+.night-1-icon {
+  position: absolute;
+  top: -16px;
+  left: 0;
+  width: 100%;
+  height: 842px;
+  object-fit: cover;
+}
+.bus1-icon {
+  width: 346px;
+  position: relative;
+  border-radius: var(--br-51xl);
+  height: 133.7px;
+  object-fit: contain;
+}
+.buses-container {
+  top: 537px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 18px 0;
+  box-sizing: border-box;
+}
+.buses-container,
+.serviceafter,
+.services-page {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+}
+.services-page {
+  top: 457px;
+  background-color: var(--color-white);
+  height: 810px;
+}
+.serviceafter {
+  top: 1173px;
+  background: linear-gradient(180deg, #0c243c, #001839);
+  height: 99px;
+}
+.desktopafter,
+.desktopbgimg-icon {
+  position: absolute;
+  left: 4px;
+  width: 100%;
+}
+.desktopbgimg-icon {
+  top: 0;
+  height: 720px;
+  object-fit: cover;
+}
+.desktopafter {
+  top: 605px;
+  background: linear-gradient(
+    180deg,
+    rgba(12, 25, 53, 0) 13.22%,
+    #163b43 50.81%,
+    rgba(24, 71, 75, 0.19) 62.12%
+  );
+  /* backdrop-filter: blur(4px); */
+  height: 229px;
+  overflow: hidden;
+}
+.our-services {
+  position: absolute;
+  top: 780px;
+  left: 158px;
+  font-size: var(--font-size-13xl);
+  font-weight: 600;
+  text-align: left;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.69);
+}
+.moon-1-icon {
+  position: absolute;
+  top: 689px;
+  left: 749px;
+  width: 200px;
+  height: 161px;
+  object-fit: cover;
+}
+.awaits-holidays,
+.p-a-r,
+.subtext {
+  position: absolute;
+  left: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.subtext {
+  top: 377px;
+  font-size: var(--font-size-5xl);
+  font-weight: 900;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.9);
+}
+.awaits-holidays,
+.p-a-r {
+  margin: 0;
+}
+.awaits-holidays {
+  top: 269px;
+  font-size: 48px;
+  letter-spacing: 0.04em;
+  font-style: italic;
+  font-weight: 400;
+  font-family: var(--font-judson);
+  height: 69px;
+  text-shadow: 3px 4px 5.8px #000;
+}
+.p-a-r {
+  top: 192px;
+  font-size: 64px;
+  letter-spacing: 0.1em;
+  font-weight: 800;
+  font-family: var(--font-mplus-1p-bold);
+  height: 103px;
+  text-shadow: 6px 4px 7.1px #000;
+}
+.phone2-1-icon {
+  width: 29.7px;
+  position: relative;
+  height: 30px;
+  object-fit: cover;
+}
+.div {
+  position: relative;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.9);
+}
+.contactinfo,
+.emailinfo {
+  position: absolute;
+  top: 63px;
+  left: 4px;
+  background-color: var(--color-red);
+  width: 229px;
+  height: 40px;
+  /* overflow: hidden; */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-xl) 0;
+  box-sizing: border-box;
+  gap: var(--gap-6xs);
+}
+.emailinfo {
+  top: 103px;
+  width: 357px;
+  height: 38px;
+  color: var(--color-gray-100);
+}
+.fb-1-icon,
+.insta2-1-icon,
+.twitter-1-icon {
+  width: 30px;
+  position: relative;
+  height: 30px;
+  object-fit: cover;
+}
+.fb-1-icon,
+.insta2-1-icon {
+  width: 30.9px;
+}
+.fb-1-icon {
+  width: 27.5px;
+}
+.logos {
+  background-color: var(--color-red);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-12xs);
+}
+.home {
+  text-decoration: none;
+  position: relative;
+  font-weight: 700;
+  color: inherit;
+}
+.call-now,
+.nav2 {
+  font-size: 20px;
+  font-family: var(--font-inter);
+  text-align: center;
+  cursor: pointer;
+}
+.nav2 a:hover{
+  color: rgb(68, 0, 156);
+}
+.nav2 {
+  margin: 0;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 86px;
+  color: var(--color-gray-200);
+}
+.call-now {
+  position: relative;
+  color: var(--color-white);
+}
+.callnowbtn,
+.navbar {
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.callnowbtn {
+  cursor: pointer;
+  border: 1px solid var(--color-white);
+  padding: 6px 19px;
+  background-color: transparent;
+  border-radius: var(--br-53xl);
+}
+.navbar {
+  position: absolute;
+  top: 0;
+  left: 4px;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.73), rgba(2, 4, 24, 0));
+  width: 100%;
+  height: 63px;
+  padding: 0 2px;
+  box-sizing: border-box;
+  gap: 122px;
+}
+.btn2 {
+  position: relative;
+  font-size: 20px;
+  font-weight: 800;
+  font-family: var(--font-inter);
+  color: var(--color-white);
+  text-align: center;
+}
+.explorebtn {
+  cursor: pointer;
+  border: 1px solid var(--color-white);
+  padding: var(--padding-smi) var(--padding-mini);
+  background-color: rgba(23, 15, 78, 0.83);
+  position: absolute;
+  top: 433.5px;
+  left: 47%;
+  border-radius: var(--br-53xl);
+  box-shadow: 0 4px 7.3px rgba(0, 0, 0, 0.76);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.downbtn-icon {
+  position: absolute;
+  top: 591px;
+  left: 50%;
+  width: 50px;
+  /* height: 40px; */
+  object-fit: cover;
+}
+.frame1 {
+  width: 100%;
+  position: relative;
+  height: 1272px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.frame {
+  position: absolute;
+  top: 0;
+  left: -4px;
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  text-align: center;
+  font-size: var(--font-size-base);
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}
+.popular-destinations {
+  position: absolute;
+  top: 0;
+  left: 154px;
+  font-weight: 600;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.78);
+}
+.btn21 {
+  position: relative;
+  font-size: var(--font-size-sm);
+  font-weight: 800;
+  font-family: var(--font-inter);
+  color: var(--color-white);
+  text-align: center;
+}
+.kashmir,
+.viewpaclagesbtn {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.viewpaclagesbtn {
+  cursor: pointer;
+  border: 1px solid var(--color-white);
+  padding: var(--padding-smi) var(--padding-mini);
+  background-color: var(--color-midnightblue-100);
+  top: 407.5px;
+  left: 91.5px;
+  border-radius: var(--br-53xl);
+  box-shadow: 0 4px 7.3px rgba(0, 0, 0, 0.76);
+  overflow: hidden;
+  flex-direction: row;
+}
+.kashmir {
+  top: 0;
+  left: 0;
+  letter-spacing: 0.13em;
+  font-weight: 800;
+  width: 336px;
+  height: 57px;
+}
+.winter-kashmir-1-icon {
+  position: absolute;
+  top: 57px;
+  left: 15px;
+  width: 300px;
+  height: 209px;
+  object-fit: cover;
+}
+.jammu-and-kashmir {
+  position: absolute;
+  top: 256px;
+  left: 14.5px;
+  font-size: var(--font-size-sm);
+  font-weight: 00;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 300px;
+  height: 128px;
+}
+.card1,
+.frame3 {
+  width: 336px;
+  overflow: hidden;
+}
+.frame3 {
+  position: absolute;
+  top: 16px;
+  left: 0;
+  height: 384px;
+}
+.card1 {
+  position: relative;
+  border-radius: var(--br-15xl);
+  background-color: var(--color-steelblue);
+  height: 484px;
+  flex-shrink: 0;
+}
+.rajasthan {
+  position: absolute;
+  top: 16px;
+  left: 0;
+  letter-spacing: 0.13em;
+  font-weight: 800;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 336px;
+  height: 57px;
+}
+.winter-kashmir-1-icon1 {
+  position: absolute;
+  top: 73px;
+  left: 15px;
+  width: 300px;
+  height: 209px;
+  object-fit: cover;
+}
+.rajasthan-is-renowned {
+  top: 282px;
+  left: 14.5px;
+  font-size: var(--font-size-sm);
+  font-weight: 800;
+  width: 301px;
+  height: 128px;
+}
+.destination-picker,
+.meghalayas-unparalleled-natur,
+.rajasthan-is-renowned {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.meghalayas-unparalleled-natur {
+  top: 282px;
+  left: 15.5px;
+  font-size: var(--font-size-sm);
+  font-weight: 800;
+  width: 300px;
+  height: 128px;
+}
+.destination-picker {
+  top: 31px;
+  left: 3%;
+  width: 1267px;
+  overflow: hidden;
+  flex-direction: row;
+  padding: 42px 17px;
+  box-sizing: border-box;
+  gap: 71px;
+  text-align: center;
+  font-size: var(--font-size-5xl);
+}
+.downbtn-icon1,
+.downbtn-icon2 {
+  position: absolute;
+  top: 289px;
+  left: 95%;
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  transform: rotate(270deg);
+}
+.downbtn-icon2 {
+  left: 2%;
+  transform: rotate(90deg);
+}
+.paradise-awaits-holidays {
+  position: relative;
+}
+.paradiseawaitsholidaysgmailc1 {
+  position: relative;
+  font-size: var(--font-size-base);
+  color: var(--color-gray-100);
+}
+.footer,
+.frame2 {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}
+.footer {
+  top: 578px;
+  background: linear-gradient(180deg, #001839, rgba(1, 0, 10, 0.81));
+  height: 233px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: center;
+  padding: 23px 0;
+  box-sizing: border-box;
+  gap: 63px;
+  text-align: center;
+  font-size: 15px;
+}
+.frame2 {
+  top: 1313px;
+  height: 811px;
+  text-align: left;
+  font-size: var(--font-size-13xl);
+}
+.desktop-1 {
+  width: 100%;
+  position: relative;
+  background-color: #001839;
+  height: 2124px;
+  overflow: hidden;
+}
